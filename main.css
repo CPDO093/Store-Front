@@ -1,0 +1,191 @@
+/*
+HTML Elements
+classes 
+ID's
+styled elements to be over written
+*/
+
+
+/* Common Elements */
+body{
+    font-size: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(46, 56, 88) url(img/Galexy.jpg) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-sizes: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%
+}
+h1{
+    color: azure;
+    font-size: 5.0em;
+    margin: 1.0em 0 1.0em 0;
+    padding: 0;
+}
+h2{
+    color: azure;
+    font-size: 3.0em;
+    padding: 0;
+    margin: 1.0em 0 0.5em 0;
+}
+p{
+    color: azure;
+    font-size: 1.5em;
+    line-height: 1.0em;
+    padding: 0;
+    margin: 5px;
+}
+ol{
+    font-size: 1.5em;
+    margin: 0 0 0 3px;
+    padding: 0 0 0 3px;
+}
+ol li{
+    margin: 0;
+    padding: 0 0 0 0.5em;
+}
+a, a:visited{
+    color: rgb(96, 55, 243);
+}
+a:hover{
+    color: slategray;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0.2em;
+}
+div.clear{
+    clear: both;
+    font-size: 1%;
+}
+
+/* Header */
+header{
+    padding: 3.0em 0 1em;
+    margin: 0 0 2.0em;
+    background: rgb(35, 11, 92) url(img/Galexy_2.jpg) no-repeat center ;
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+    -webkit-background-sizes: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+header h1{
+    font-family: fantasy;
+    color: rgb(215, 226, 226);
+    font-size: 9.0em;
+    text-transform: uppercase;
+    letter-spacing: 0.050em;
+    margin: 0;
+}
+
+/* Nav Bars */
+nav{
+    color: rgb(56, 54, 54);
+    font-size: 1.5em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin: 0;
+}
+nav li a, nav li a:visited{
+    color: rgb(7, 124, 3);
+    padding: 0.25em 0.5em;
+}
+nav li a:hover{
+    color: rgb(2, 212, 72);
+    background-color: rgb(83, 95, 107);
+}
+nav#logMenu{
+    float: right;
+    margin: -0.25em;
+    padding: 0.2em;
+    background-color: rgb(114, 113, 113);
+    height: 2.6em;
+}
+nav#logMenu li{
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: middle;
+}
+nav#logMenu ul li input#search{
+    vertical-align: middle;
+    margin: 0 0 0 1.0em;
+}
+
+/* Main Section */
+section #bulk{
+    margin: 0 0 2.0em;
+    padding: 25px 0 25px 25px;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #777;
+}
+section div.panel{
+    float: left;
+    position: relative;
+    width: 75.0em;
+
+}
+
+
+/* Bottom bar Sections */
+section #bottomBar{
+    background-color: rgb(119, 121, 121);
+    border: 1px solid rgb(119, 121, 121);
+    border-radius: 15px;
+    width: 60% ;
+    position: relative;
+    display: inline-block;
+    margin: 2.0em 2.0em 2.0em 0.5em;
+    padding: 1.5em 1.0em 2.0em 5px ;
+}
+
+    
+    
+
+
+
+/* Footer */
+footer{
+    background-color: rgb(29, 29, 46);
+    height: 28px;
+    font-size: 1.2em;
+    color: azure;
+    text-align: right;
+    padding: 1.5em 1.5em;
+}
+footer ul#menuFooter{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+footer ul li{
+    display: inline-block;
+    padding: 0 0.5em 0 0 ;
+    margin: 0;
+}
+button{
+    color: rgb(4, 173, 4);
+    background-color: rgb(48, 54, 59);
+    display: inline-block;
+    margin: 0 0.5em 0 0 ;
+    padding: 0.15em 0.25em;
+    border: 1px solid rgb(4, 173, 4) ;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: azure;
+    border: 1px solid rgb(83, 95, 107);
+}
